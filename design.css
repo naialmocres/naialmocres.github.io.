@@ -1,59 +1,13 @@
-/* Main site styles (plain CSS file) */
-
-:root{
-  --accent1: #eb92b6;
-  --accent2: #f8c1d8;
-  --text: #222;
-  --muted: #666;
-  --highlight: #c2f3ea;
-  --music: #bee4ad;
-}
-
-*{box-sizing:border-box}
-
 body{
-  margin:0;
-  min-height:100vh;
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(135deg, var(--accent1), var(--accent2));
-  color:var(--text);
-  display:flex;
-  justify-content:center;
-  align-items:flex-start;
-  padding:3rem;
+    background: #eb92b6;
 }
-
-.page{
-  width:100%;
-  max-width:900px;
-  background: rgba(255,255,255,0.85);
-  border-radius:10px;
-  padding:1.5rem 2rem;
-  box-shadow:0 8px 24px rgba(0,0,0,0.12);
-}
-
 h1{
-  margin:0 0 0.75rem 0;
-  font-size:2rem;
-  text-align:center;
-  color:#333;
+    color: #c2f3ea;
+    text-shadow:1px 1px #757171;
 }
-
-figure{ margin:0; display:flex; justify-content:center; }
-img{
-  border-radius:6px;
-  max-width:100%;
-  height:auto;
-  display:block;
+.about{
+    color:#ffffff;
 }
-
-.about h2, .favorites h3, .fun-fact h3{
-  color:var(--highlight);
-  margin-bottom:0.25rem;
+.music{
+    color:#bee4ad;
 }
-
-section{ margin-top:1rem; }
-
-p{ line-height:1.5; color:var(--text); margin:0.25rem 0; }
-
-.music{ color:var(--music); }
